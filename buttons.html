@@ -8,33 +8,42 @@
     <title>Buttons</title>
 
 </head>
-<body>
+<body style="background-color: #23204B;">
 
-    <h3 class="text-center p-3 mt-3 "><u>This page shows bootstrap buttons.</u></h3>
+    <h3 class="text-center text-light p-3 mt-3 ">This page shows bootstrap buttons.</h3>
     <div class="container">
         <div class="row">
-            <div class="col">
-                <button class="btn btn-success p-3 m-3">This is a button</button>
-                <button class="btn btn-primary p-3 m-3" type="submit">Button</button>
-                <input class="btn btn-secondary p-3 m-3" type="button" value="Input">
-                <input class="btn btn-warning p-3 m-3" type="submit" value="Submit">
+          <div class="col-lg-10">
+            <div class="card mx-auto">
+                <div class="card-header p-3 m-3 lead text-center">simple buttons</div>
 
+              <div class="card-body">
+                <button class="btn btn-success btn-lg">large</button>
+                <button class="btn btn-primary btn-sm">small</button>
+                <button class="btn btn-secondary">Secondary</button>
+                <button class="btn btn-info" disabled>disabled</button>
+                <button class="btn btn-outline-dark">outline</button>
 
-                <button class="btn btn-outline-dark p-3 m-3">Button</button>
-                <button type="button" class="btn btn-outline-primary p-3 m-3">Primary</button>
-                <button type="button" class="btn btn-outline-secondary p-3 m-3">Secondary</button>
-                <button type="button" class="btn btn-outline-success p-3 m-3">Success</button>
-            </div>
-
-            <div class="col">
-
-                <div class="btn-group" role="group" aria-label="Basic example">
-                    <button type="button" class="btn btn-dark p-3 mt-3">Left</button>
-                    <button type="button" class="btn btn-dark p-3 mt-3">Middle</button>
-                    <button type="button" class="btn btn-dark p-3 mt-3">Right</button>
+                <div class="d-grid gap-2 mt-3">
+                    <button class="btn btn-dark" type="button">D-grid</button>
+                    <button class="btn btn-dark" type="button">D-grid</button>
                 </div>
+
+                <div class="btn-group mt-3" role="group" aria-label="Basic radio toggle button group">
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                    <label class="btn btn-outline-primary" for="btnradio1">Radio 1</label>
+                  
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="btnradio2">Radio 2</label>
+                  
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="btnradio3">Radio 3</label>
+                </div>
+
+                <div class="card-footer text-center lead p-3 m-3">footer</div>
+              </div>
             </div>
-            <link >
+          </div>
         </div>
     </div>
 
