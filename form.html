@@ -10,29 +10,49 @@
 <body style="background-color: #23204B;">
     <div class="container-fluid">
         <div class="col-md-5 mx-auto">
+            
             <div class="row">
                 <div class="card m-3 p-3">
                         <div class="card-header text-center p-3 m-3">This is a simple form</div>
 
                                 <div class="card-body">
                                     <form>
-                                        <div class="mb-3">
-                                        <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                        </div>
-                                        <div class="mb-3">
-                                        <label for="exampleInputPassword1" class="form-label">Password</label>
-                                        <input type="password" class="form-control" id="exampleInputPassword1">
-                                        </div>
+                                        <div class="form-floating mb-3">
+                                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                            <label for="floatingInput">Email address</label>
+                                          </div>
+                                          <div class="form-floating mb-3">
+                                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                            <label for="floatingPassword">Password</label>
+                                          </div>
+                                        <select class="form-select mb-3" aria-label="Default select example">
+                                            <option selected>Select the presenting student</option>
+                                            <option value="1">Sam</option>
+                                            <option value="2">Denis</option>
+                                            <option value="3">Morgan</option>
+                                            <option value="3" disabled>Bitwise(disabled)</option>
+                                          </select>
                                         
                                         <div class="mb-3">
                                             <label for="formFile" class="form-label">Default file input example</label>
                                             <input class="form-control" type="file" id="formFile">
                                         </div>
+
+                                       <div class="mb-3">
+                                        <label for="customRange3" class="form-label">How satisfied are you with this page?</label>
+                                        <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange1">
+                                       </div>
+
                                         <div class="mb-3 form-check">
                                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                             <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                                            </div>
+                                        </div>
+
+                                        <div class="form-floating mb-3">
+                                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                                            <label for="floatingTextarea2">Please leave a comment</label>
+                                          </div>
+
                                         <button type="submit" class="btn btn-primary">Submit</button>
                                     </form>
                                 </div>
