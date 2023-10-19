@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Grid system</title>
+</head>
+<body style="background-color: #23204B;" class="text-light">  
+    <h1 class="text-center">Bootstrap 5 Grid System Example</h1>
+    
+    <div class="info bg-info m-3 p-2" style="border-left: 6px solid blue; ;">
+        <article>Resize your browser to see the responsiveness of the grid system.</article>
+    </div>
+
+    <div class="container">
+        <div class="row m-3 p-3">
+            <div class="col-md-4" style="border: 3px solid ghostwhite">
+                <p>column 1</p>
+            </div>
+
+            <div class="col-md-4"  style="border: 3px solid ghostwhite">
+                <p>column 2</p>
+            </div>
+
+            <div class="col-md-4" style="border: 3px solid ghostwhite">
+                <p>column 3</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+       
+        <div class="row m-3 p-3">
+            <div class="col-md-4">
+                <div class="bg-primary text-white p-3">Column 1</div>
+            </div>
+            <div class="col-md-4">
+                <div class="bg-secondary text-white p-3">Column 2</div>
+            </div>
+            <div class="col-md-4">
+                <div class="bg-info text-white p-3">Column 3</div>
+            </div>
+        </div>
+        
+        <div class="row m-3 p-3">
+            <div class="col-sm-6 col-md-3">
+                <div class="bg-success text-white p-3">Column 1</div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="bg-warning text-dark p-3">Column 2</div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="bg-danger text-white p-3">Column 3</div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="bg-dark text-white p-3">Column 4</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row gx-4">
+            <div class="col-md-3">
+                <div class="p-3 border bg-light">Custom column padding</div>
+            </div>
+            <div class="col-md-3">
+                <div class="p-3 border bg-light">Custom column padding</div>
+              </div>
+        </div>
+    </div>
+
+    <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>
