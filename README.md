@@ -6,27 +6,28 @@ This project is a comprehensive overhaul of a Bootstrap 5 project, incorporating
 
 ### 1. Accordion
 
-Description of your Accordion component.
+Accordion component.
 
-[Accordion Image](img/accordion.jpeg)
+<img src="img/accordion.jpeg" alt="Accordion Image" width="400">
 
 ### 2. Carousel
 
-Description of your Carousel component.
+Carousel component.
 
-[Carousel Image](/img/carousel.jpeg)
+<img src="img/carousel.jpeg" alt="Carousel Image" width="400">
 
 ### 3. Colors
 
-Description of your Color component.
+Color component.
 
-[Color Palette Image](img/color.jpeg)
+<img src="img/color.jpeg" alt="Color Palette Image" width="400">
 
 ### 4. Tables
 
-Description of your Tables component.
+Tables component.
 
-[Tables Image](img/tables.jpeg)
+<img src="img/tables.jpeg" alt="Tables Image" width="400">
+
 
 ## Usage
 
