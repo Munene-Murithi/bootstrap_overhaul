@@ -8,28 +8,30 @@ This project is a comprehensive overhaul of a Bootstrap 5 project, incorporating
 
 Accordion component.
 
-<img src="/img/accordion.png" alt="Accordion Image" width="400">
+<img src="/img/accordion.png" alt="Accordion Image">
 
 ### 2. Carousel
 
 Carousel component.
 
-<img src="/img/carousel.png" alt="Carousel Image" width="400">
+<img src="/img/carousel.png" alt="Carousel Image">
 
 ### 3. Colors
 
 Color component.
 
-<img src="/img/color.png" alt="Color Palette Image" width="400">
+<img src="/img/colors.png" alt="Color Palette Image">
 
 ### 4. Tables
 
 Tables component.
 
-<img src="/img/tables.png" alt="Tables Image" width="400">
+<img src="/img/tables.png" alt="Tables Image">
 
 
 ## Usage
 
 git clone
-```html
+```git
+git clone
+
